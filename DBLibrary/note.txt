@@ -15,6 +15,6 @@ Microsoft.EntityFrameworkCore.SqlServer
 -Force
 
 
-EF Core Power Tools
-
-
+"ConnectionStrings": {
+    "LocalDBContext": "Data Source=DESKTOP-F1MM8C0\\SQLEXPRESS;Database=LocalDB;Trusted_Connection=True;TrustServerCertificate=True;User ID=admin;Password=nn123"
+  }
