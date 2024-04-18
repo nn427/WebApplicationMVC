@@ -1,0 +1,20 @@
+﻿Scaffold-DbContext指令
+需安裝
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Tools
+
+Scaffold-DbContext "Data Source=DESKTOP-F1MM8C0\SQLEXPRESS; Database=LocalDB; Trusted_Connection=True; User ID=admin; Password=nn123; TrustServerCertificate=true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -NoOnConfiguring -UseDatabaseNames -NoPluralize -Force
+
+Scaffold-DbContext 
+"Data Source=DESKTOP-F1MM8C0\SQLEXPRESS; Database=LocalDB; Trusted_Connection=True; User ID=admin; Password=nn123; TrustServerCertificate=true" 
+Microsoft.EntityFrameworkCore.SqlServer 
+-OutputDir Models 
+-NoOnConfiguring // 不產生OnConfiguring方法
+-UseDatabaseNames 
+-NoPluralize // 不自動補成複數型(加s)
+-Force
+
+
+EF Core Power Tools
+
+
