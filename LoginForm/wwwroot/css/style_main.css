@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url('/image/bg.jpg') no-repeat;
+    background: url('/image/bg.png') no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
